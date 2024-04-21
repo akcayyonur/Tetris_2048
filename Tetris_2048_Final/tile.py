@@ -13,7 +13,7 @@ class Tile:
    # font family and font size used for displaying the tile number
    font_family, font_size = "Arial", 14
 
-   # A constructor that creates a tile with 2 as the number on it
+   # A constructor that creates a tile with 2 or 4 as the number on it
    def __init__(self):
       random_numbers = [2, 4]
       # set the number on this tile
